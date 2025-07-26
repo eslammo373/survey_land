@@ -3,7 +3,7 @@ import {
     CardContent,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/UI/card"
 
 import {cardData} from '@/utils/data'
 export default function CardComp() {

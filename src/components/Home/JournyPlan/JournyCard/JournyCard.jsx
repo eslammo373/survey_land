@@ -6,7 +6,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/UI/card"
 import { ThemeContext } from "@/context/ThemeContext"
 import { useContext } from "react"
 

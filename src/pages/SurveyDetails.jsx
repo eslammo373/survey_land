@@ -10,7 +10,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/components/UI/select";
 import usePreview from "@/hooks/previewHook";
 import { Link, useParams } from "react-router-dom";
 import { ThemeContext } from "@/context/ThemeContext";

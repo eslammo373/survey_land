@@ -10,7 +10,7 @@ import {
     CardDescription,
 
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/UI/card"
 import {
     DropdownMenu,
     DropdownMenuContent,
