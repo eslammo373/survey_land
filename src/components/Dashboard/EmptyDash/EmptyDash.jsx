@@ -1,7 +1,7 @@
 import * as Img from '@/assets/images/Images.jsx'
 // import * as Icon from '@/assets/icons/Icons.js'
 import { Button } from '@/components'
-import HeaderSurv from '../common-Dash/headerSurv';
+import HeaderSurv from '../common-Dash/HeaderSurv';
 import SurveyView from '../SurveyView/SurveyView';
 import { useContext } from 'react';
 import { SurveyContext } from '@/context/SurveyContext';

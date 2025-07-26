@@ -1,7 +1,7 @@
 
 
 import { Button } from "@/components";
-import HeaderSurv from "../common-Dash/headerSurv";
+import HeaderSurv from "../common-Dash/HeaderSurv";
 import * as Icon from '@/assets/icons/Icons.js'
 import {
     Card,
@@ -16,8 +16,8 @@ import {
     DropdownMenuContent,
 
     DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Checkbox } from "@/components/ui/checkbox"
+} from "@/components/UI/dropdown-menu"
+import { Checkbox } from "@/components/UI/checkbox"
 import { DropdownMenuCheckboxItem } from "@radix-ui/react-dropdown-menu";
 import { useContext } from "react";
 import { ThemeContext } from "@/context/ThemeContext";
