@@ -4,7 +4,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/UI/card"
 import Btn from "./Btn"
 
 export default function CardCommon({ items }) {
