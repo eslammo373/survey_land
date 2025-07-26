@@ -1,0 +1,129 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+/* Custom theme variables */
+@theme {
+    --color-main:#00B7C1;
+    --color-secondary: #52ECF5;
+    --color-dark:#181A1B;
+    --color-secondaryDark:#1E2021;
+    --color-light:#FFFFFF;
+    --color-secondaryLight:#F9FAFB;
+    --color-textDark:#111826;
+    --color-grayText:#817C73;
+    --color-grayLight:#62636C;
+    --color-grayDark:#9FA09B;
+    --color-lightText:#E8E6E3;
+    --color-card:#0B373B;
+    --color-clone:#74c8d5;
+    --color-secondaryGray:#62636C;
+    --font-poppins: "Poppins", sans-serif;
+    --font-inter: "Inter", sans-serif;
+}
+
+html.light {
+  background-color: #ffffff;
+   color: oklch(0.21 0.03 263.45);
+  
+}
+html.dark {
+  background-color :oklch(0.21 0.03 263.45);
+  color: #ffffff;
+  
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #F5F5F5;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.active {
+    color: #00b7c1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.password-input-no-reveal::-ms-reveal,
+.password-input-no-reveal::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  height: 0;
+  width: 0;
+  margin: 0;
+}
+
+
+/* ...existing code... */
+
+/* Make clickable elements show the pointer cursor */
+button,
+a,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+.clickable,
+.btn {
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+textarea,
+select {
+  cursor: text;
+}
+
+button:disabled,
+input:disabled,
+a.disabled,
+.btn:disabled {
+  cursor: not-allowed;
+}
+/* ...existing code... */
+.about-gradient-border {
+    width: 410.92px;
+    height: 380.89px;
+    border-radius: 79px;
+    padding: 10px;
+
+    transform: rotate(178deg);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-image-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(178deg);
+  }
+/* Base theme variables */
+.responsive{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+ 
