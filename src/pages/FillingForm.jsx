@@ -35,7 +35,7 @@ const FillingForm = () => {
             <p className="text-gray-500">{qlinks?.description}</p>
           </div>
           {/*  */}
-          <div className="my-4">
+          <div className="my-5">
             <h3 className="text-sm text-gray-500 pb-2">Name</h3>
             <input
               type="text"

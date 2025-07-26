@@ -1,5 +1,5 @@
 import React from "react";
-import PricingHeader from "@/components/Pricing/pricingHeader";
+import PricingHeader from "@/components/Pricing/PricingHeader";
 import PricingCards from "../components/Pricing/PricingCards";
 
 const Pricing = () => {
