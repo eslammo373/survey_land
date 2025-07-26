@@ -1,5 +1,5 @@
 import { Input } from '@/components/UI/input';
-import { Label } from "@/components/ui/label";
+import { Label } from "@/components/UI/label";
 import { Button } from '@/components/UI/button';
 import * as Img from '@/assets/images/Images.jsx';
 import useSurvey from '@/hooks/useSurvey';
