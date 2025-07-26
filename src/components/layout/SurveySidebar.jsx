@@ -11,8 +11,8 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/components/UI/sidebar";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/UI/avatar";
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/UI/collapsible";
 import * as Images from "@/assets/images/Images";
 import {
   FaCirclePlus,
