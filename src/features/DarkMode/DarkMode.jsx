@@ -7,7 +7,7 @@ export default function Darkmode() {
   return (
     <div className="flex items-center justify-center">
       <button
-        className="px-4 py-2 mx-4 cursor-pointer bg-gray-200 dark:bg-secondaryDark text-gray-900 dark:text-white rounded-md transition-all duration-300 shadow-md hover:scale-105"
+        className="px-4 py-2 mx-4 cursor-pointer bg-gray-200 dark:bg-secondaryDark  text-gray-900 dark:text-white rounded-md transition-all duration-300 shadow-md hover:scale-105 border-amber-400 border-1"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {theme === "dark" ? "☀️" : "🌙"}
